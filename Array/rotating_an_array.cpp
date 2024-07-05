@@ -46,6 +46,7 @@ int main()
         cin >> item;
         v.push_back(item);
     }
+    // handling the edge case if the rotation size is greater than the original vector size
     if (rotate_by > v.size())
     {
         rotate_by = rotate_by % v.size();

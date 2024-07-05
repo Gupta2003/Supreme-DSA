@@ -136,15 +136,24 @@ int main()
     {
         cin >> arr[i];
     }
+
+    // question 4
     // removal_duplicate(arr, n);
+
     // neg_to_left(arr, n);
+
+    // qeustion
     // duplicate(arr, n);
+
+    // question
     // common_in_2
+
+    // question 3
     // cout<<"The missing number : " <<missing_number(arr, n);
 
     // question 1
     // two_sum_brute(arr, n, target); // this is the brute force approcach which take o(n^2)time leetcode 1
-    two_sum_efficeient(arr, n, target);//this is the efficient approach by the two pointer approach which has the time complexity o()
+    // two_sum_efficeient(arr, n, target);//this is the efficient approach by the two pointer approach which has the time complexity o()
     delete[] arr;
     return 0;
 }
