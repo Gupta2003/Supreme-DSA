@@ -18,5 +18,7 @@ int main()
             i++;
         }
     cout << count;
+
+    // isme ek nayi kahani h jo revision me pakad aayi ki agar varibale input lenge let say n toh isme jo stored buffer h usme new line character rehta h toh issue krta h uske liye "cin.ignore" use krna padega
     return 0;
 }

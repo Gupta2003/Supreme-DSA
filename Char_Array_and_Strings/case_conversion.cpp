@@ -17,12 +17,15 @@ void upper_to_lower(char arr[])
     while (arr[i] != '\0')
     {
         if (arr[i] != ' ')
-        {
+        {   
+            //M->1
             // here we added sapce kyuki space ki ascii value 32 hoti h 
             arr[i] = arr[i] + ' ';
 
+            //M->2
             // by typecasting char to int (explicitly)
             arr[i] = int(arr[i]) + 32;
+
         }
         i++;
     }

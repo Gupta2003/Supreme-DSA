@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+using namespace std;
 string remove_duplicate(string str){
     string ans;
     for (int i = 0; i < str.length();i++){
@@ -21,7 +22,7 @@ int main(){
     string str;
     cout << "Enter the string : " << endl;
     cin >> str;
-    str = remove_duplicate(str);
-    cout << str<< endl;
+    cout<<remove_duplicate(str);
+    // cout << str<< endl;
     return 0;
 }
